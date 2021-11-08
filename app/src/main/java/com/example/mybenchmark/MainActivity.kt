@@ -1,18 +1,17 @@
 package com.example.mybenchmark
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mybenchmark.databinding.ActivityMainBinding
-import com.example.mybenchmark.databinding.ItemFlowerLayoutBinding
 
 class MainActivity : AppCompatActivity() {
     companion object {
         private fun buildFlowerItem(): FlowerItem {
             return FlowerItem(
                 "bougainvillea",
-                "叶子花，九重葛(热带攀缘植物，开红、紫、白或粉色花);",
+                "Bougainvillea (tropical climbing plant with red, purple, white or pink flowers)",
                 "https://upload.wikimedia.org/wikipedia/commons/6/6d/Paperflower_--_Bougainvillea_glabra.jpg"
             )
         }
